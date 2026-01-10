@@ -25,6 +25,7 @@
 - [Reactor Optimization result](#Reactor-Optimization-result)
 - [Citation](#Citation)
 - [Fast Start](#Fast-Start)
+- [License](#License)
 
 
 
@@ -166,6 +167,14 @@ git clone https://github.com/your-forked-repo-URL/Deep-DMS-Reactor.git
 cd Deep-DMS-Reactor
 ```
 
+
+<div align="right">
+    <b><a href="#Table-of-contents">↥ back to top</a></b>
+</div>
+
+# License
+
+All rights reserves.
 
 <div align="right">
     <b><a href="#Table-of-contents">↥ back to top</a></b>
