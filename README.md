@@ -171,6 +171,28 @@ cd Deep-DMS-Reactor
 pip3 install -r requirements.txt
 ```
 
+and run model-train code:
+
+```bash
+python3 src/model-train.py
+```
+
+run global optimizing:
+
+```bash
+python3 src/global-step.py
+```
+
+and change the upload code:
+
+```python
+data = pd.read_csv(r"train-data.csv", encoding='ISO-8859-1')
+```
+
+```bash
+python3 src/inference.py
+```
+
 
 <div align="right">
     <b><a href="#Table-of-contents">↥ back to top</a></b>
