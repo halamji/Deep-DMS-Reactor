@@ -1,0 +1,98 @@
+<svg width="1050" height="320" viewBox="0 0 1050 320" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <style>
+    .step-box {
+      fill: #F0F4F8; 
+      stroke: #334155; 
+      stroke-width: 2;
+      rx: 10;
+      ry: 10;
+    }
+    .main-text {
+      font-size: 18px;
+      font-weight: bold;
+      fill: #1E293B;
+      text-anchor: middle;
+    }
+    .arrow-line {
+      stroke: #06B6D4; 
+      stroke-width: 4;
+      marker-end: url(#arrowhead);
+      fill: none;
+    }
+    .catalyst-line {
+      stroke: #65A30D; /* Lime green for catalyst cycle */
+      stroke-width: 3;
+      stroke-dasharray: 8 4;
+      fill: none;
+    }
+    .cycle-text {
+      font-size: 16px;
+      font-style: italic;
+      fill: #4D7C0F;
+      text-anchor: middle;
+    }
+    .title-text {
+      font-size: 16px;
+      fill: #64748B;
+      text-anchor: middle;
+    }
+    .product-text {
+        font-size: 20px;
+        font-weight: bold;
+        fill: #C026D3;
+        text-anchor: middle;
+    }
+    .step-connector-text {
+      font-size: 15px;
+      fill: #64748B;
+      font-weight: normal;
+      text-anchor: middle;
+    }
+    .small-cycle-arrow {
+        fill: #65A30D;
+    }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#06B6D4" />
+    </marker>
+  </defs>
+
+  <rect class="step-box" x="50" y="50" width="130" height="50" />
+  <text class="title-text" x="115" y="40">Reactant</text>
+  <text class="main-text" x="115" y="82">(CH₃)₂S</text>
+  
+  <line class="arrow-line" x1="180" y1="75" x2="230" y2="75" />
+
+  <rect class="step-box" x="235" y="50" width="300" height="50" />
+  <text class="main-text" x="385" y="82">Nucleophilic Attack on Peroxyacid</text>
+
+  <line class="arrow-line" x1="535" y1="75" x2="585" y2="75" />
+
+  <rect class="step-box" x="590" y="50" width="200" height="50" />
+  <text class="main-text" x="690" y="82">S–O Bond Formation</text>
+
+  <line class="arrow-line" x1="795" y1="75" x2="845" y2="75" />
+  <text class="step-connector-text" x="690" y="40">Oxygen Transfer Rearrangement</text>
+
+  <rect class="step-box" x="850" y="50" width="130" height="50" />
+  <text class="title-text" x="915" y="40">Product</text>
+  <text class="product-text" x="915" y="82">(CH₃)₂SO</text>
+
+  <line class="catalyst-line" x1="690" y1="100" x2="690" y2="180" /> 
+  
+  <line class="catalyst-line" x1="690" y1="180" x2="115" y2="180" /> 
+  
+  <line class="catalyst-line" x1="115" y1="180" x2="115" y2="100" />
+  
+  <text class="cycle-text" x="400" y="140">Catalyst Regeneration</text>
+  <text class="cycle-text" x="400" y="165">(Catalyst ⇌ Oxidized Form)</text>
+
+  <polygon class="small-cycle-arrow" points="685 140, 690 150, 695 140" />
+  
+  <polygon class="small-cycle-arrow" points="400 175, 390 180, 400 185" />
+  
+  <polygon class="small-cycle-arrow" points="110 140, 115 130, 120 140" />
+
+</svg>
